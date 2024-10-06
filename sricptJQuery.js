@@ -14,8 +14,11 @@ class P4 {
     drawGame(){
         const $jeu = $(this.selector);
 
+        let button = $("<button>").attr("id","restart");
+        $jeu.prepend(button.append("Relancer"));
+
         for(let lgn = 0; lgn < this.LGN; lgn++){
-            const $lgn = $('<div>').addClass('lgn');4
+            const $lgn = $('<div>').addClass('lgn');
 
             for(let col = 0; col < this.COL; col++) {
                 const $col = $('<div>').addClass('col empty').attr("data-col", col).attr("data-lgn", lgn);
@@ -64,10 +67,14 @@ class P4 {
 
             if(winner != null) {
                 alert(`les ${winner} ont gagné la partie`);
-                $('#retart').css('visibility', 'visible');
+                $('#restart').css('visibility', 'visible');
             };
         });
 
+        $jeu.on('click', "#restart", function() {
+            $("body").load(location.href + "#container");
+            drawGame();
+        });
     };
 
     checkWin(lgn, col) {

@@ -49,6 +49,8 @@ h1 {
 }
 
 #restart {
+    margin: 10px;
+    border: 1px solid white;
     visibility: hidden;
     padding: 8px 14px;
     border-radius: 15px;
