@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puissance 4 - README</title>
-</head>
-<body>
+
     <h1>Puissance 4 en jQuery</h1>
     <p>Ce projet est une implémentation du jeu Puissance 4 en utilisant jQuery. Il permet à deux joueurs de s'affronter en tour par tour sur une grille classique de 7 colonnes par 6 lignes.</p>
     
@@ -29,5 +22,4 @@
     
     <h2>📷 Aperçu</h2>
     <p>(Ajoute ici une capture d'écran du jeu si possible)</p>
-</body>
-</html>
+
