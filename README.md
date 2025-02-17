@@ -21,5 +21,5 @@
     </ul>
     
 <h2>📷 Aperçu</h2>
-    <p>(Ajoute ici une capture d'écran du jeu si possible)</p>
+    ![Aperçu du jeu](screenshot.png)
 
